@@ -1,0 +1,313 @@
+{
+    "cafe": [
+        {
+        "id": 1,
+        "nombre": "Espresso",
+        "tipo": "cafe",
+        "precio": 800
+    },
+    {
+        "id": 2,
+        "nombre": "Espresso doppio",
+        "tipo": "cafe",
+        "precio": 900
+    },
+    {
+        "id": 3,
+        "nombre": "Espresso tonic",
+        "tipo": "cafe",
+        "precio": 900
+    },
+    {
+        "id": 4,
+        "nombre": "Lungo",
+        "tipo": "cafe",
+        "precio": 1000
+    },
+    {
+        "id": 5,
+        "nombre": "Americano",
+        "tipo": "cafe",
+        "precio": 1000
+    },
+    {
+        "id": 6,
+        "nombre": "Cortado",
+        "tipo": "cafe",
+        "precio": 800
+    },
+    {
+        "id": 7,
+        "nombre": "Capuccino",
+        "tipo": "cafe",
+        "precio": 900
+    },
+    {
+        "id": 8,
+        "nombre": "Caramel latte",
+        "tipo": "cafe",
+        "precio": 900
+    },
+    {
+        "id": 9,
+        "nombre": "Vainilla latte",
+        "tipo":  "cafe",
+        "precio": 900
+    },
+    {
+        "id": 10,
+        "nombre": "Latte",
+        "tipo": "cafe",
+        "precio": 800
+    },
+    {
+        "id": 11,
+        "nombre": "Mocaccino",
+        "tipo": "cafe",
+        "precio": 950
+    },
+    {
+        "id": 12,
+        "nombre": "Flat white",
+        "tipo": "cafe",
+        "precio": 1000
+    },
+    {
+        "id": 13,
+        "nombre": "Magic",
+        "tipo": "cafe",
+        "precio": 1000
+    },
+    {
+        "id": 14,
+        "nombre": "Machiatto",
+        "tipo": "cafe",
+        "precio": 1000
+    },
+    {
+        "id": 15,
+        "nombre": "Iced americano",
+        "tipo": "cafe",
+        "precio": 1100
+    },
+    {
+        "id": 16,
+        "nombre": "Iced latte",
+        "tipo": "cafe",
+        "precio": 1100
+    },
+    {
+        "id": 17,
+        "nombre": "Iced vainilla latte",
+        "tipo": "cafe",
+        "precio": 1200
+    },
+    {
+        "id": 18,
+        "nombre": "Iced falt white",
+        "tipo": "cafe",
+        "precio": 1200
+    },
+    {
+        "id": 19,
+        "nombre": "Iced Mocha / Caramel",
+        "tipo": "cafe",
+        "precio": 1200
+    }
+    ],
+    
+    "bebida": [
+        {
+        "id": 20,
+        "nombre": "Limonada de petalos rosa",
+        "tipo": "bebida",
+        "precio": 1500
+    },
+    {
+        "id": 21,
+        "nombre": "Té",
+        "tipo": "bebida",
+        "precio": 800
+    },
+    {
+        "id": 22,
+        "nombre": "Iced tea",
+        "tipo": "bebida",
+        "precio": 900
+    },
+    {
+        "id": 23,
+        "nombre": "Jugo del día",
+        "tipo": "bebida",
+        "precio": 800
+    },
+    {
+        "id": 24,
+        "nombre": "Matcha latte",
+        "tipo": "bebida",
+        "precio": 1000
+    },
+    {
+        "id": 25,
+        "nombre": "Iced Matcha",
+        "tipo": "bebida",
+        "precio": 1000
+    },
+    {
+        "id": 26,
+        "nombre": "Chocolatada caliente",
+        "tipo": "bebida",
+        "precio": 900
+    },
+    {
+        "id": 27,
+        "nombre": "Chocolatada fría",
+        "tipo": "bebida",
+        "precio": 900
+    },
+    {
+        "id": 28,
+        "nombre": "Agua sin gas",
+        "tipo": "bebida",
+        "precio": 500
+    },
+    {
+        "id": 29,
+        "nombre": "Bebidas",
+        "tipo": "bebida",
+        "precio": 800
+    }
+    ],
+    "bakery": [
+        {
+        "id": 30,
+        "nombre": "Croissant",
+        "tipo": "bakeryDulce",
+        "precio": 1000
+    },
+    {
+        "id": 31,
+        "nombre": "Croissant de almendras",
+        "tipo": "bakeryDulce",
+        "precio": 1300
+    },
+    {
+        "id": 32,
+        "nombre": "Medialuna",
+        "tipo": "bakeryDulce",
+        "precio": 800
+    },
+    {
+        "id": 33,
+        "nombre": "Palmerita",
+        "tipo": "bakeryDulce",
+        "precio": 800
+    },
+    {
+        "id": 34,
+        "nombre": "Budín del día",
+        "tipo": "bakeryDulce",
+        "precio": 800
+    },
+    {
+        "id": 35,
+        "nombre": "Brownie",
+        "tipo": "bakeryDulce",
+        "precio": 900
+    },
+    {
+        "id": 36,
+        "nombre": "Alfajor",
+        "tipo": "bakeryDulce",
+        "precio": 800
+    },
+    {
+        "id": 37,
+        "nombre": "Cookie",
+        "tipo": "bakeyDulce",
+        "precio": 900
+    },
+    {
+        "id": 38,
+        "nombre": "Roll de canela",
+        "tipo": "bakeryDulce",
+        "precio": 1000
+    },
+    {
+        "id": 39,
+        "nombre": "Roll de avellanas",
+        "tipo": "bakeyDulce",
+        "precio": 1000
+    },
+    {
+        "id": 40,
+        "nombre": "Porcion de torta",
+        "tipo": "bakeyDulce",
+        "precio": 1100
+    },
+    {
+        "id": 41,
+        "nombre": "Roll de pizza",
+        "tipo": "bakerySalado",
+        "precio": 1100
+    },
+    {
+        "id": 42,
+        "nombre": "Chipa",
+        "tipo": "bakeySalado",
+        "precio": 1100
+    },
+    {
+        "id": 43,
+        "nombre": "Pan",
+        "tipo": "bakerySalado",
+        "precio": 1100
+    }
+    ],
+    
+    "cocina": [
+        {
+        "id": 44,
+        "nombre": "Yogurt, granola y frutas",
+        "tipo": "cocina",
+        "precio": 2000
+    },
+    {
+        "id": 45,
+        "nombre": "French toast",
+        "tipo": "cocina",
+        "precio": 1900
+    },
+    {
+        "id": 46,
+        "nombre": "Vegan toast",
+        "tipo": "cocina",
+        "precio": 1900
+    },
+    {
+        "id": 47,
+        "nombre": "Avocado toast",
+        "tipo": "cocina",
+        "precio": 2000
+    },
+    {
+        "id": 48,
+        "nombre": "Shakshuka toast",
+        "tipo": "cocina",
+        "precio": 2000
+    },
+    {
+        "id": 49,
+        "nombre": "Chipa prensado",
+        "tipo": "cocina",
+        "precio": 1500
+    },
+    {
+        "id": 50,
+        "nombre": "Sandwich prensado",
+        "tipo": "cocina",
+        "precio": 1800
+    }
+    ]
+}
+
