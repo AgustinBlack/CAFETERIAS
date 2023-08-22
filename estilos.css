@@ -19,7 +19,6 @@ body{
     /* NAVBAR */
 
     .navBar{
-        /* background-color: rgb(215, 167, 103); */
         padding: 10px;
         display: flex;
         flex-direction: row;
