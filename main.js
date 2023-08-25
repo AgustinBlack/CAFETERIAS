@@ -18,6 +18,7 @@ function mostrarProductosPorTipo(arrayProductos, tipo) {
 
     arrayProductos[tipo].forEach((producto) => {
         let card = document.createElement("div");
+        card.classList.add("divProducto")
         
         card.innerHTML = `
             <ul class="divLista">
