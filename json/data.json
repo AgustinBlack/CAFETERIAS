@@ -70,7 +70,8 @@
         "id": 12,
         "nombre": "Flat white",
         "tipo": "cafe",
-        "precio": 1000
+        "precio": 1000,
+        "descripcion": "Un flat white es una bebida a base de espresso que contiene leche cremada."
     },
     {
         "id": 13,
@@ -121,7 +122,8 @@
         "id": 20,
         "nombre": "Limonada de petalos rosa",
         "tipo": "bebida",
-        "precio": 1500
+        "precio": 1500,
+        "descripcion": "Se trata de un agua muy refrescante y deliciosa, además que tiene un color muy especial."
     },
     {
         "id": 21,
@@ -145,7 +147,8 @@
         "id": 24,
         "nombre": "Matcha latte",
         "tipo": "bebida",
-        "precio": 1000
+        "precio": 1000,
+        "descripcion": "Mezcla de té matcha con leche perfectamente vaporizada en su versión Frappuccino y con crema."
     },
     {
         "id": 25,
@@ -276,7 +279,8 @@
         "id": 45,
         "nombre": "French toast",
         "tipo": "cocina",
-        "precio": 1900
+        "precio": 1900,
+        "descripcion": "Es un plato hecho de una rebanada de pan que es empapada en leche, almíbar o vino y, tras ser rebozada en huevo, se fríe en una sartén con aceite. Se endulza con miel, melaza o azúcar y es aromatizada con canela. "
     },
     {
         "id": 46,
@@ -288,13 +292,15 @@
         "id": 47,
         "nombre": "Avocado toast",
         "tipo": "cocina",
-        "precio": 2000
+        "precio": 2000,
+        "descripcion": "Es un tipo de sándwich abierto que consiste en tostadas con puré de aguacate y cualquiera de una variedad de especias e ingredientes sabrosos."
     },
     {
         "id": 48,
         "nombre": "Shakshuka toast",
         "tipo": "cocina",
-        "precio": 2000
+        "precio": 2000,
+        "descripcion": "Es un plato de la gastronomía magrebí y del Medio Oriente​ realizado a base de huevos escalfados en salsa de tomates, pimientos y cebolla, comúnmente aderezado con comino, pimentón y harissa.​"
     },
     {
         "id": 49,
