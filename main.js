@@ -17,42 +17,59 @@ function mostrarProductosPorTipo(arrayProductos, tipo) {
     contenedor.innerHTML = `<h4>${tipo.charAt(0).toUpperCase() + tipo.slice(1)}</h4>`;
 
     arrayProductos[tipo].forEach((producto) => {
-        let card = document.createElement("div");
-        card.classList.add("divProducto")
-        
-        card.innerHTML = `
-            <ul class="divLista">
-                <li>${producto.nombre}<span>$${producto.precio}</span></li>
-            </ul>
-        `;
-
-        contenedor.appendChild(card);
 
         if (producto.descripcion) {
-            let descripcionBoton = document.createElement("button")
-            descripcionBoton.textContent = "+";
-            descripcionBoton.classList.add("descripcionBoton")
+            let card = document.createElement("div");
+            card.classList.add("divProducto");
+          
+            let nombreProducto = document.createElement("span");
+            nombreProducto.textContent = producto.nombre;
+            nombreProducto.classList.add("nombreProducto");
+          
+            let precioProducto = document.createElement("span");
+            precioProducto.textContent = `$${producto.precio}`;
+            precioProducto.classList.add("precioProducto");
+          
+            let descripcionTexto = document.createElement("p");
+            descripcionTexto.textContent = producto.descripcion;
+            descripcionTexto.style.display = "none";
+            descripcionTexto.classList.add("descripcionTexto");
+          
+            nombreProducto.addEventListener("click", function() {
+              if (descripcionTexto.style.display == "none") {
+                descripcionTexto.style.display = "block";
+              } else {
+                descripcionTexto.style.display = "none";
+              }
+            });
 
-            let descripcionTexto = document.createElement("p")
-            descripcionTexto.textContent = producto.descripcion
-            descripcionTexto.style.display = "none"
-            descripcionTexto.classList.add("descripcionTexto")
-
-            card.appendChild(descripcionBoton)
-            card.appendChild(descripcionTexto)
-
-            descripcionBoton.addEventListener("click", function() {
-
-                if(descripcionTexto.style.display == "none") {
-                    descripcionTexto.style.display = "block"
-                    descripcionBoton.textContent = "-"
-                }
-                else {
-                    descripcionTexto.style.display = "none"
-                    descripcionBoton.textContent = "+"
-                }
-            })
-        }
+            if (producto.descripcion) {
+                nombreProducto.classList.add("subrayado");
+              }
+          
+            card.appendChild(nombreProducto);
+            card.appendChild(precioProducto);
+            card.appendChild(descripcionTexto);
+          
+            contenedor.appendChild(card);
+          } else {
+            let card = document.createElement("div");
+            card.classList.add("divProducto");
+          
+            let nombreProducto = document.createElement("span");
+            nombreProducto.textContent = producto.nombre;
+            nombreProducto.classList.add("nombreProducto");
+          
+            let precioProducto = document.createElement("span");
+            precioProducto.textContent = `$${producto.precio}`;
+            precioProducto.classList.add("precioProducto");
+          
+            card.appendChild(nombreProducto);
+            card.appendChild(precioProducto);
+          
+            contenedor.appendChild(card);
+          }
+          
     });
 }
 

@@ -71,7 +71,8 @@
         "nombre": "Flat white",
         "tipo": "cafe",
         "precio": 1000,
-        "descripcion": "Un flat white es una bebida a base de espresso que contiene leche cremada."
+        "descripcion": "Un flat white es una bebida a base de espresso que contiene leche cremada.",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 13,
@@ -123,7 +124,8 @@
         "nombre": "Limonada de petalos rosa",
         "tipo": "bebida",
         "precio": 1500,
-        "descripcion": "Se trata de un agua muy refrescante y deliciosa, además que tiene un color muy especial."
+        "descripcion": "Se trata de un agua muy refrescante y deliciosa, además que tiene un color muy especial.",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 21,
@@ -148,7 +150,8 @@
         "nombre": "Matcha latte",
         "tipo": "bebida",
         "precio": 1000,
-        "descripcion": "Mezcla de té matcha con leche perfectamente vaporizada en su versión Frappuccino y con crema."
+        "descripcion": "Mezcla de té matcha con leche perfectamente vaporizada en su versión Frappuccino y con crema.",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 25,
@@ -280,7 +283,8 @@
         "nombre": "French toast",
         "tipo": "cocina",
         "precio": 1900,
-        "descripcion": "Es un plato hecho de una rebanada de pan que es empapada en leche, almíbar o vino y, tras ser rebozada en huevo, se fríe en una sartén con aceite. Se endulza con miel, melaza o azúcar y es aromatizada con canela. "
+        "descripcion": "Es un plato hecho de una rebanada de pan que es empapada en leche, almíbar o vino y, tras ser rebozada en huevo, se fríe en una sartén con aceite. Se endulza con miel, melaza o azúcar y es aromatizada con canela. ",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 46,
@@ -293,14 +297,16 @@
         "nombre": "Avocado toast",
         "tipo": "cocina",
         "precio": 2000,
-        "descripcion": "Es un tipo de sándwich abierto que consiste en tostadas con puré de aguacate y cualquiera de una variedad de especias e ingredientes sabrosos."
+        "descripcion": "Es un tipo de sándwich abierto que consiste en tostadas con puré de aguacate y cualquiera de una variedad de especias e ingredientes sabrosos.",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 48,
         "nombre": "Shakshuka toast",
         "tipo": "cocina",
         "precio": 2000,
-        "descripcion": "Es realizado a base de huevos escalfados en salsa de tomates, pimientos y cebolla, comúnmente aderezado con comino, pimentón y harissa.​"
+        "descripcion": "Es realizado a base de huevos escalfados en salsa de tomates, pimientos y cebolla, comúnmente aderezado con comino, pimentón y harissa.",
+        "imagen": "images/icons8-lleno-más-2-matemáticas-24.png"
     },
     {
         "id": 49,

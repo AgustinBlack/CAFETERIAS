@@ -72,22 +72,16 @@ body{
         margin-bottom: 23px;
     }
 
-    .divLista {
+    .divProducto {
         position: relative;
-    }
-
-    .divLista li{
         padding-left: 7px;
+        padding-right: 7px;
         padding-bottom: 3px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        z-index: 1;
-    }
-
-    .divLista li span{
-        margin-right: 10px;
+        flex-wrap: wrap;
     }
 
     .divBakerySalado{
@@ -118,6 +112,11 @@ body{
         height: 30px;
     }
 
+    .subrayado{
+        text-decoration: underline solid 1px black;
+        text-underline-offset: 2px;
+    }
+
     .descripcionBoton{
         background-color: white;
         border-radius: 2px;
@@ -130,13 +129,11 @@ body{
     }
 
     .descripcionTexto{
-        margin: 8px;
         padding: 5px;
         border: 0.5px solid rgb(189, 189, 189);
         background-color: rgb(247 247 247);
         border-radius: 3px;
         position: relative;
-        top: -30px;
         z-index: 2;
     }
 
