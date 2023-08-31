@@ -45,7 +45,7 @@ function mostrarProductosPorTipo(arrayProductos, tipo) {
 
             if (producto.descripcion) {
                 nombreProducto.classList.add("subrayado");
-              }
+            }
           
             card.appendChild(nombreProducto);
             card.appendChild(precioProducto);
