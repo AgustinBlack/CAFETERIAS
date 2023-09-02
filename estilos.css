@@ -133,6 +133,7 @@ body{
     .descripcionTexto{
         padding: 5px;
         background-color: #dfcfb5;
+        color: #755500;
         border-radius: 8px;
         position: relative;
         z-index: 2;
